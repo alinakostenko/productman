@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1500px;
+    height: 100%;
+    background-color: #eee;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 48px;
+}
+
+header .bw {
+    float: left;
+    margin-right: 0;
+    max-width: 618px;
+    text-align: right;
+}
+
+header .bw h3 {
+    color: #303030;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 1.2px;
+    text-align: left;
+    margin-bottom: 105px;
+}
+
+header .bw h1 {
+    margin: 0;
+    font-size: 150px;
+    letter-spacing: 4px;
+    line-height: 150px;
+    color: #303030;
+    font-family: "Raleway", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+header .bw p {
+    margin-top: 43px;
+    margin-bottom: 20px;
+    color: #303030;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0.6px;
+}
+
+header .bw p:last-child {
+    margin: 0;
+    color: #e10011;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.6px;
+}
+
+header .earphones {
+    float: right;
+    max-width: 579px;
+    text-align: right;
+}
+
+header .earphones ul {
+    list-style-type: none;
+    margin-bottom: 117px;
+    margin-top: 16px;
+    text-align: right;
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 38px;
+}
+
+header ul li:nth-child(2) {
+    margin-left: 50px;
+}
+
+header ul li:first-child {
+    margin-left: 0;
+}
+
+header .earphones ul li a {
+    display: inline-block;
+    color: #303030;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.45px;
+    text-decoration: none;
+}
+
+header .one {
+    display: inline-block;
+    margin-right: 113px;
+}
+
+header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
